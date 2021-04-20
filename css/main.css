@@ -18,5 +18,6 @@
 #container .pie{
   grid-column: 1/4;
   grid-row: 3/4;
-
+  height: 50%;
+  width:50%;
 }
