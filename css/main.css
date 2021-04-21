@@ -25,14 +25,14 @@
 }
 
 
-#carrusel {
-
+#container .body #carrusel {
     float:center;
-    width:600px;
+    width:100%;
+    height: 100%;
     overflow:hidden;
 }
 
-#carrusel .left-arrow {
+#container .body #carrusel .left-arrow {
     position:absolute;
     left:10px;
     z-index:1;
@@ -40,7 +40,7 @@
     margin-top:-9px;
 }
 
-#carrusel .right-arrow {
+#container .body #carrusel .right-arrow {
     position:absolute;
     right:10px;
     z-index:1;
@@ -48,16 +48,16 @@
     margin-top:-9px;
 }
 
-#carrusel .carrusel {
-    width:5000px;
+#container .body #carrusel .carrusel {
+    width:100%;
     center:0px;
     position:absolute;
     z-index:0;
 }
 
-.carrusel>div {
+#container .body .carrusel>div {
     float:left;
-    height: 203px;
+    height: 100%;
     margin-right: 5px;
     margin-left: 5px;
     width: 195px;
