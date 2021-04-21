@@ -8,29 +8,28 @@
 #container .cabecera{
   grid-column: 1/4;
   grid-row:1/2;
+  height: 100%;
+  width:100%;
 }
 
 #container .body{
-  grid-column: 1/4;
+  grid-column: 2/4;
   grid-row: 2/3;
 }
 
 #container .pie{
   grid-column: 1/4;
   grid-row: 3/4;
-  height: 50%;
-  width:50%;
+  height: 100%;
+  width:100%;
 }
 
 
 #carrusel {
-    float:left;
+
+    float:center;
     width:600px;
     overflow:hidden;
-    height:203px;
-    position:relative;
-    margin-top:20px;
-    margin-bottom:20px;
 }
 
 #carrusel .left-arrow {
@@ -49,17 +48,18 @@
     margin-top:-9px;
 }
 
-.carrusel {
-    width:4000px;
-    left:0px;
+#carrusel .carrusel {
+    width:5000px;
+    center:0px;
     position:absolute;
     z-index:0;
 }
 
 .carrusel>div {
-    float: left;
+    float:left;
     height: 203px;
     margin-right: 5px;
+    margin-left: 5px;
     width: 195px;
     text-align:center;
 }
