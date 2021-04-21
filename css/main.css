@@ -2,7 +2,7 @@
 #container{
   display:grid;
   grid-template-columns: 4fr 10fr 4fr;
-  grid-template-rows: 15vh 70vh 15vh;
+  grid-template-rows: 15vh 20vh 30vh 20vh 15vh;
 }
 
 #container .cabecera{
@@ -13,8 +13,15 @@
 }
 
 #container .body{
-  grid-column: 2/4;
-  grid-row: 2/3;
+  grid-column: 2/3;
+  grid-row: 3/4;
+  background-color: #ECFF62;
+}
+
+#container .body{
+  grid-column: 2/3;
+  grid-row: 3/4;
+  background-color: #ECFF62;
 }
 
 #container .pie{
@@ -49,10 +56,12 @@
 }
 
 #carrusel .carrusel {
-    width:5000px;
+    width: auto;
+    height: auto;
     center:0px;
     position:absolute;
     z-index:0;
+    background-color: #519AFF;
 }
 
 .carrusel>div {
@@ -70,4 +79,9 @@
 
 .product {
     border:#CCCCCC 1px solid;
+}
+
+img{
+  width: 100%;
+  height: 100%;
 }
