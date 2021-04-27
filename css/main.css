@@ -11,17 +11,22 @@
   height: 100%;
   width:100%;
 }
-
-#container .body{
+#container .bodySECH{
   grid-column: 2/3;
-  grid-row: 3/4;
-  background-color: #ECFF62;
+  grid-row: 2/5;
+  background-color: #59d9de;
 }
 
 #container .body{
   grid-column: 2/3;
   grid-row: 3/4;
-  background-color: #ECFF62;
+  background-color: #59d9de;
+}
+
+#container .body{
+  grid-column: 2/3;
+  grid-row: 3/4;
+  background-color: #59d9de;
 }
 
 #container .pie{
@@ -61,7 +66,7 @@
     center:0px;
     position:absolute;
     z-index:0;
-    background-color: #519AFF;
+    background-color: #59d9de;
 }
 
 .carrusel>div {
@@ -78,7 +83,7 @@
 }
 
 .product {
-    border:#CCCCCC 1px solid;
+    border:#59d9de 1px solid;
 }
 
 img{
