@@ -1,87 +1,28 @@
-
-#container{
-  display:grid;
+#container {
+  display: grid;
   grid-template-columns: 4fr 10fr 4fr;
   grid-template-rows: 15vh 20vh 30vh 20vh 15vh;
 }
 
-#container .cabecera{
+#container .cabecera {
   grid-column: 1/4;
-  grid-row:1/2;
-  height: 100%;
-  width:100%;
-}
-
-#container .body{
-  grid-column: 2/3;
-  grid-row: 3/4;
-  background-color: #ECFF62;
-}
-
-#container .body{
-  grid-column: 2/3;
-  grid-row: 3/4;
-  background-color: #ECFF62;
-}
-
-#container .pie{
-  grid-column: 1/4;
-  grid-row: 3/4;
-  height: 100%;
-  width:100%;
-}
-
-
-#carrusel {
-
-    float:center;
-    width:600px;
-    overflow:hidden;
-}
-
-#carrusel .left-arrow {
-    position:absolute;
-    left:10px;
-    z-index:1;
-    top:50%;
-    margin-top:-9px;
-}
-
-#carrusel .right-arrow {
-    position:absolute;
-    right:10px;
-    z-index:1;
-    top:50%;
-    margin-top:-9px;
-}
-
-#carrusel .carrusel {
-    width: auto;
-    height: auto;
-    center:0px;
-    position:absolute;
-    z-index:0;
-    background-color: #519AFF;
-}
-
-.carrusel>div {
-    float:left;
-    height: 203px;
-    margin-right: 5px;
-    margin-left: 5px;
-    width: 195px;
-    text-align:center;
-}
-
-.carrusel img {
-    cursor:pointer;
-}
-
-.product {
-    border:#CCCCCC 1px solid;
-}
-
-img{
+  grid-row: 1/2;
+  height:100%;
   width: 100%;
+}
+
+#container .body {
+  grid-column: 2/3;
+  grid-row: 3/4;
+  background-color: #ECFF62;
+  height: 50%;
+  width: 50%;
+}
+
+
+#container .pie {
+  grid-column: 1/4;
+  grid-row: 3/4;
   height: 100%;
+  width: 100%;
 }
