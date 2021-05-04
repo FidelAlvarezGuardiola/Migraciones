@@ -1,17 +1,26 @@
+
 #container {
   display: grid;
   grid-template-columns: 4fr 10fr 4fr;
   grid-template-rows: 15vh 20vh 30vh 20vh 15vh;
 }
 
-#container .cabecera {
-  grid-column: 1/4;
+#container .cabecera{
+  padding: 9px;
+  background-image: url(../img/fondocabeceraipie.jpg);
+  border-radius: 5px;
+  grid-column: 1/6;
   grid-row: 1/2;
-  height:100%;
-  width: 100%;
 }
 
-#container .body {
+#container .carousel-item active {
+  grid-column: 1/4;
+  grid-row: 1/2;
+  height:500%;
+  width: 50%;
+}
+
+#container .carousel-item {
   grid-column: 2/3;
   grid-row: 3/4;
   background-color: #ECFF62;
@@ -19,9 +28,14 @@
   width: 50%;
 }
 
-#container .pie {
+#container .carousel-item{
   grid-column: 1/4;
   grid-row: 3/4;
   height: 100%;
   width: 100%;
+}
+
+img{
+  width: 0,5px;
+  height: 0,5px;
 }
