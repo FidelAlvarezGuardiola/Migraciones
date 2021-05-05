@@ -40,7 +40,10 @@
   width: 100%;
 }
 
-img{
-  width: 0,5px;
-  height: 0,5px;
+.imgnormalizada img{
+  height: 500px;
+  max-height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
