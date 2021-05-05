@@ -5,6 +5,11 @@
   grid-template-rows: 15vh 20vh 30vh 20vh 15vh;
 }
 
+#container  .my_carousel{
+  grid-row: 2/5;
+  grid-column: 2/3;
+}
+
 #container .cabecera{
   padding: 9px;
   background-image: url(../img/fondocabeceraipie.jpg);
