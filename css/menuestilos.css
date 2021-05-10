@@ -97,3 +97,12 @@ body{
   color:white;
   font-size: 22px;;
 }
+
+p{
+  color: black;
+}
+
+img{
+  width: 50%;
+  height: 50%;
+}
