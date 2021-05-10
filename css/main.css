@@ -54,6 +54,11 @@
   align-items: center;
 }
 
+h3 {
+  text-align: center;
+  background-color: black;
+  color: white;
+}
 <texto personalizado>
 
 @import url(https://fonts.googleapis.com/css?family=Varela+Round);
