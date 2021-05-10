@@ -3,6 +3,7 @@
   display: grid;
   grid-template-columns: 4fr 10fr 4fr;
   grid-template-rows: 15vh 20vh 30vh 20vh 15vh;
+  background-color: blue;
 }
 
 #container  .my_carousel{
