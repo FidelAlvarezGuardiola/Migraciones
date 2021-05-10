@@ -3,7 +3,13 @@
   display: grid;
   grid-template-columns: 4fr 10fr 4fr;
   grid-template-rows: 15vh 20vh 30vh 20vh 15vh;
-  background-color: blue;
+  background-color: #00BDFF;
+}
+
+#container .celda1{
+  grid-column: 1/6;
+  grid-row: 1/2;
+  background-color: black;
 }
 
 #container  .my_carousel{
