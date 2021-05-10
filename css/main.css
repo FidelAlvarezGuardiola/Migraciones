@@ -28,7 +28,6 @@
 #container .carousel-item {
   grid-column: 2/3;
   grid-row: 3/4;
-  background-color: #ECFF62;
   height: 50%;
   width: 50%;
 }
