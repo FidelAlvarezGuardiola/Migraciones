@@ -159,7 +159,11 @@ h1 {
   }
 }
 
-<menú>
+
+#container #menu{
+grid-column: 3/4;
+grid-row: 1/2;
+}
 
 #container #menu ul li {
     background-color:black;
@@ -185,7 +189,7 @@ h1 {
 
 #container #menu ul li {
   position:relative;
-  float:right;
+  float:left;
   margin:0;
   padding:0;
 }
